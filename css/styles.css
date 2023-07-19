@@ -1,0 +1,132 @@
+#title{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+#navbarTogglerDemo01{
+  margin-left: 400px;
+}
+h1{
+  font-family: Montserrat, sans-serif;
+  line-height: 1.5;
+  font-size: 3rem;
+  font-weight: 300;
+}
+h3{
+  font-family: Montserrat, sans-serif;
+  font-weight: bolder;
+
+}
+h2{
+  font-family: Montserrat, sans-serif;
+  font-weight: bolder;
+  font-size: 3rem;
+  line-height: 4rem;
+}
+
+.container-fluid{
+  padding: 3% 15% 10%;
+}
+
+.navbar-brand{
+  font-family: Ubuntu, sans-serif;
+  font-size: 4rem;
+}
+
+.nav-item{
+  padding: 0 20px;
+}
+
+.navbar{
+  padding:0 0 4.5rem;
+}
+
+.btn{
+  margin: 10px 7px 0;
+}
+
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+  margin-left: 100px ;
+Position: absolute;
+margin-left: 10%;
+
+}
+
+#features{
+  Padding: 7% 15%;
+  text-align: center;
+  background-color: #fff;
+  Position: relative;
+  Z-index: 1;
+
+}
+
+.symbol{
+   font-size: 75px; color: #FF7377;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+.symbol:hover{
+color: #ff4c68;
+}
+
+.content{
+  padding-left: 7%;
+  padding-right: 7%;
+}
+
+#testimonials{
+text-align: center;
+background-color: #FF7377;
+color: #fff;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin:20px;
+}
+#press{
+  background-color: #FF7377;
+  text-align: center;
+  padding-bottom:3%;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px 20px;
+}
+#pricing{
+  text-align: center;
+  padding: 100px;
+}
+.pricing-column{
+  padding:3% 2%;
+}
+@media (max-width:1008px) {
+  .title-image{
+    Position: static;
+    Padding-top: 50px;
+    transform: rotate(0);
+  }
+
+}
+#cta{
+  background-color: #FF7377;
+  color: #fff;
+  font-size: bolder;
+  text-align: center;
+  line-height: 2rem;
+  Padding: 100px 100px;
+}
+
+#footer{
+  margin: 100px ;
+  text-align: center;
+}
+.social-icon{
+  Padding: 0px 10px 10px 10px;
+}
